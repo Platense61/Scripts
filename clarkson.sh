@@ -26,12 +26,15 @@ cd scripts
 echo " document.getElementById(\"test\").style.color = \"blue\";" >> script.js
 cd ..
 #initialize github repo
-if [ $2 == "createGit" ]; then
+if [ -z "$2" ]; then
+	echo "No github repository created, project created locally"
+	exit 0
+else
 	git -C $PWD init
 	gh repo create $1 --$3 --source=$PWD
 	git add --all
 	git commit --all --message="project scaffold from cmd line"
 	git push --all
-else
-	echo "No repo created" 
+	echo " Success, git hub and local repository created exiting with error code 0" 
+	exit 0 
 fi
