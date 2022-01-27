@@ -4,4 +4,5 @@ The purpose of this script is to scaffold a web project. Script supports argumen
 
 # How to Use
 
-To use this script github command line interface must be installed in order to utilize the github repository creation feature. The instructions to install github CLI will be linked below
+To use this script github command line interface must be installed in order to utilize the github repository creation feature. The instructions to install github CLI will be linked below  
+[Github CLI Installation guide](https://github.com/cli/cli#installation)
