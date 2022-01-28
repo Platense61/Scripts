@@ -21,3 +21,9 @@ To use this script github command line interface must be installed in order to u
 | Case3: 3 Arguments|
 |------------------------|
 | `bash scaf.sh projectName private/public description`|
+
+#### Note
+
+Replace the [projectName] variable with the name you want your github repo to display for cases 2 and 3.
+Replace the [private/public] variable with one of the options. Either private or public. This will determine the visibility of your repo.
+
