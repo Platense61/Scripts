@@ -28,7 +28,6 @@ cd ..
 #initialize github repo
 if [ -z "$2" ]; then
 	echo "No github repository created, project created locally"
-	exit 0
 elif [ -z "$3" ]; then
 	git -C $PWD init
 	gh repo create $1 --$2 --source=$PWD
@@ -36,7 +35,6 @@ elif [ -z "$3" ]; then
 	git commit --all --message="project scaffolded from cmd line, one argument passed"
 	git push --all
 	echo "Success, github and local repository created, exiting with exit code 0"
-	exit 0
 else
 	git -C $PWD init
 	gh repo create $1 --$2 --description $3 --source=$PWD
@@ -44,10 +42,11 @@ else
 	git commit --all --message="project scaffold from cmd line, 2 args passed"
 	git push --all
 	echo " Success, git hub and local repository created exiting with error code 0" 
-	exit 0 
 fi
 
 atom .
 
-#plz use firefox
+#plz use firefox, chrome sucks ~professor york
 firefox index.html
+
+exit 0
