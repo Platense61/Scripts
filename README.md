@@ -10,6 +10,14 @@ To use this script github command line interface must be installed in order to u
 
 # How to Use
 
-|Case1: 1 Argument | Case2: 2 Arguments | Case3: 3 Arguments|
-|--------------------|-------------------------------------|-------------------------------------|
-| `bash scaf.sh projectName` | `bash scaf.sh projectName private/public` | `bash scaf.sh projectName private/public description`|
+|Case1: 1 Argument |
+|--------------------|
+| `bash scaf.sh projectName` |
+
+| Case2: 2 Arguments |
+|-------------------------------------------|
+| `bash scaf.sh projectName private/public` |
+
+| Case3: 3 Arguments|
+|------------------------|
+| `bash scaf.sh projectName private/public description`|
