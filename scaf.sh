@@ -46,3 +46,8 @@ else
 	echo " Success, git hub and local repository created exiting with error code 0" 
 	exit 0 
 fi
+
+atom .
+
+#plz use firefox
+firefox index.html
