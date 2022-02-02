@@ -28,3 +28,5 @@ Replace the `projectName` variable with the name you want your github repo to di
 
 Replace the `private/public` variable with one of the options. Either private or public. This will determine the visibility of your repo.
 
+Use case 1 if you do not wish to create a github repo
+
